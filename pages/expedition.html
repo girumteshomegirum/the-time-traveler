@@ -3,78 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Time Traveler | Home</title>
+    <title>The Time Traveler - Plan Your Expedition</title>
 </head>
 
 <body>
 
     <header>
-        <h1>THE TIME TRAVELER</h1>
-        <p>Explore the Past. Discover the World.</p>
-        <p>Journey through ancient civilizations, forgotten kingdoms and extraordinary destinations.</p>
+        <h1>Plan Your Expedition</h1>
+        <p>Your journey through history begins here.</p>
     </header>
 
     <nav>
-        <a href="index.html">Home</a> |
-        <a href="pages/places.html">Discover History</a> |
-        <a href="pages/expedition.html">Plan Your Expedition</a>
+        <a href="../index.html">Home</a> |
+        <a href="places.html">Discover History</a> |
+        
     </nav>
+
+    <hr>
 
     <main>
 
         <section>
-            <h2>Welcome, Explorer!</h2>
-            <p>
-                Have you ever wondered how ancient civilizations lived,
-                how great kingdoms were built, or what secrets historical
-                monuments still hold?
-            </p>
-            <p>
-                The Time Traveler takes you on a journey across history
-                and geography to explore remarkable places around the world.
-            </p>
-        </section>
+            <h2>Explorer's Bucket List</h2>
+            <p>Discover the historical destinations you dream of visiting.</p>
 
-        <section>
-            <h2>Explore Extraordinary Destinations</h2>
-
-            <h3>The Pyramids of Egypt</h3>
-            <img src="images/egypt.jpg"
-                 alt="The ancient pyramids of Giza in Egypt"
-                 width="400">
-            <p>Discover the remarkable engineering and history of ancient Egypt.</p>
-
-            <h3>The Royal City of Gondar</h3>
-            <img src="images/gondar.jpg"
-                 alt="The historic royal castles of Gondar in Ethiopia"
-                 width="400">
-            <p>Explore the royal castles and fascinating history of Ethiopia.</p>
-        </section>
-
-        <section>
-            <h2>Why Explore History?</h2>
             <ul>
-                <li>Understand ancient civilizations.</li>
-                <li>Discover different cultures and traditions.</li>
-                <li>Learn how people lived in the past.</li>
-                <li>Explore remarkable historical architecture.</li>
+                <li>Visit the Pyramids of Giza in Egypt.</li>
+                <li>Explore the ancient Kingdom of Aksum.</li>
+                <li>Discover the Royal Castles of Gondar.</li>
+                <li>Explore the ancient Roman Empire.</li>
             </ul>
         </section>
 
+        <hr>
+
         <section>
-            <h2>Begin Your Journey</h2>
-            <p>
-                Ready to discover ancient worlds?
-                Visit our <a href="pages/places.html">historical destinations</a>
-                and choose your next adventure.
-            </p>
+            <h2>Expedition Preparation Checklist</h2>
+            <p>Prepare yourself before starting your historical adventure.</p>
+
+            <ol>
+                <li>Choose your historical destination.</li>
+                <li>Research the history of the location.</li>
+                <li>Prepare your travel documents.</li>
+                <li>Arrange accommodation and transportation.</li>
+                <li>Pack your necessary travel items.</li>
+            </ol>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Travel Tips for Explorers</h2>
+
+            <dl>
+                <dt><strong>Research</strong></dt>
+                <dd>Learn about the history and culture of your destination.</dd>
+
+                <dt><strong>Respect</strong></dt>
+                <dd>Respect historical monuments, local traditions, and cultural heritage.</dd>
+
+                <dt><strong>Photography</strong></dt>
+                <dd>Capture memories of your historical adventure.</dd>
+            </dl>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Plan Your Historical Adventure</h2>
+            <p>Tell us about the expedition you would like to experience.</p>
+
+            <form action="#" method="get">
+
+                <label for="name">Full Name:</label><br>
+                <input type="text" id="name" name="name" required>
+                <br><br>
+
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+
+                <label for="destination">Choose Your Destination:</label><br>
+                <select id="destination" name="destination">
+                    <option value="">Select a destination</option>
+                    <option value="Egypt">Ancient Egypt</option>
+                    <option value="Aksum">Kingdom of Aksum</option>
+                    <option value="Gondar">Royal City of Gondar</option>
+                    <option value="Rome">Roman Empire</option>
+                </select>
+                <br><br>
+
+                <label for="date">Preferred Travel Date:</label><br>
+                <input type="date" id="date" name="date">
+                <br><br>
+
+                <label for="message">Tell Us About Your Expedition:</label><br>
+                <textarea id="message" name="message" rows="5" cols="40"></textarea>
+                <br><br>
+
+                <input type="submit" value="Submit Expedition">
+
+                <input type="reset" value="Clear Form">
+
+            </form>
         </section>
 
     </main>
 
+    <hr>
+
     <footer>
-        <p>&copy; 2026 The Time Traveler. Explore the Past. Discover the World.</p>
-        <p>Contact us: <a href="mailto:explorer@example.com">Send us an email</a></p>
+        <p>&copy; 2026 The Time Traveler. All rights reserved.</p>
+        <p>Questions? <a href="mailto:explorer@example.com">Email us</a></p>
     </footer>
 
 </body>
